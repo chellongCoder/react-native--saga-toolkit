@@ -3139,7 +3139,7 @@ color-name@1.1.3:
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
 
-color-name@^1.0.0, color-name@~1.1.4:
+color-name@^1.0.0, color-name@^1.1.4, color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
@@ -3186,11 +3186,6 @@ commander@^2.16.0, commander@^2.19.0, commander@^2.20.3, commander@^2.8.1:
   version "2.20.3"
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
-
-commander@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
 commander@^7.2.0:
   version "7.2.0"
@@ -3614,7 +3609,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@4:
+debug@4, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.2"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -3634,13 +3629,6 @@ debug@^3.1.0:
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
   dependencies:
     ms "^2.1.1"
-
-debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz"
-  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
-  dependencies:
-    ms "2.1.2"
 
 decamelize-keys@^1.1.0:
   version "1.1.0"
@@ -3788,15 +3776,15 @@ depd@~1.1.2:
   resolved "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
-dependency-tree@^8.0.0:
-  version "8.1.0"
-  resolved "https://registry.npmjs.org/dependency-tree/-/dependency-tree-8.1.0.tgz"
-  integrity sha512-YKFK+1KXJOqVpsW6MkrIl/DyiW+KVG25V8NfRs27ANe+oSeCkQx2ROW1mBpp1bcm++5zj3Xv8wyFxHgX6TbM1w==
+dependency-tree@^8.1.1:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/dependency-tree/-/dependency-tree-8.1.2.tgz#c9e652984f53bd0239bc8a3e50cbd52f05b2e770"
+  integrity sha512-c4CL1IKxkKng0oT5xrg4uNiiMVFqTGOXqHSFx7XEFdgSsp6nw3AGGruICppzJUrfad/r7GLqt26rmWU4h4j39A==
   dependencies:
     commander "^2.20.3"
     debug "^4.3.1"
-    filing-cabinet "^3.0.0"
-    precinct "^7.0.0"
+    filing-cabinet "^3.0.1"
+    precinct "^8.0.0"
     typescript "^3.9.7"
 
 destroy@~1.0.4:
@@ -3824,7 +3812,7 @@ detect-node@^2.0.4:
   resolved "https://registry.npmjs.org/detect-node/-/detect-node-2.1.0.tgz"
   integrity sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==
 
-detective-amd@^3.0.1:
+detective-amd@^3.0.1, detective-amd@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/detective-amd/-/detective-amd-3.1.0.tgz"
   integrity sha512-G7wGWT6f0VErjUkE2utCm7IUshT7nBh7aBBH2VBOiY9Dqy2DMens5iiOvYCuhstoIxRKLrnOvVAz4/EyPIAjnw==
@@ -3842,7 +3830,7 @@ detective-cjs@^3.1.1:
     ast-module-types "^2.4.0"
     node-source-walk "^4.0.0"
 
-detective-es6@^2.1.0, detective-es6@^2.2.0:
+detective-es6@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/detective-es6/-/detective-es6-2.2.0.tgz"
   integrity sha512-fSpNY0SLER7/sVgQZ1NxJPwmc9uCTzNgdkQDhAaj8NPYwr7Qji9QBcmbNvtMCnuuOGMuKn3O7jv0An+/WRWJZQ==
@@ -3868,6 +3856,16 @@ detective-postcss@^4.0.0:
     postcss "^8.1.7"
     postcss-values-parser "^2.0.1"
 
+detective-postcss@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/detective-postcss/-/detective-postcss-5.0.0.tgz#7d39bde17a280e26d0b43130fd735a4a75786fb0"
+  integrity sha512-IBmim4GTEmZJDBOAoNFBskzNryTmYpBq+CQGghKnSGkoGWascE8iEo98yA+ZM4N5slwGjCr/NxCm+Kzg+q3tZg==
+  dependencies:
+    debug "^4.3.1"
+    is-url "^1.2.4"
+    postcss "^8.2.13"
+    postcss-values-parser "^5.0.0"
+
 detective-sass@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/detective-sass/-/detective-sass-3.0.1.tgz"
@@ -3890,16 +3888,6 @@ detective-stylus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/detective-stylus/-/detective-stylus-1.0.0.tgz"
   integrity sha1-UK7n24uruZA4HwEMY/q7pbWOVM0=
-
-detective-typescript@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/detective-typescript/-/detective-typescript-6.0.0.tgz"
-  integrity sha512-vTidcSDK3QostdbrH2Rwf9FhvrgJ4oIaVw5jbolgruTejexk6nNa9DShGpuS8CFVDb1IP86jct5BaZt1wSxpkA==
-  dependencies:
-    "@typescript-eslint/typescript-estree" "^4.8.2"
-    ast-module-types "^2.7.1"
-    node-source-walk "^4.2.0"
-    typescript "^3.9.7"
 
 detective-typescript@^7.0.0:
   version "7.0.0"
@@ -4660,10 +4648,10 @@ file-uri-to-path@2:
   resolved "https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-2.0.0.tgz"
   integrity sha512-hjPFI8oE/2iQPVe4gbrJ73Pp+Xfub2+WI2LlXDbsaJBwT5wuMh35WNWVYYTpnz895shtwfyutMFLFywpQAFdLg==
 
-filing-cabinet@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/filing-cabinet/-/filing-cabinet-3.0.0.tgz"
-  integrity sha512-o8Qac5qxZ1uVidR4Sd7ZQbbqObFZlqXU4xu1suAYg9PQPcQFNTzOmxQa/MehIDMgIvXHTb42mWPNV9l3eHBPSw==
+filing-cabinet@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/filing-cabinet/-/filing-cabinet-3.0.1.tgz#3b463edf13dd4a62fa4596a446d443f4ac47584b"
+  integrity sha512-3Wn18+vSKmrlOc0fp5J7p1UyGi7yCWUpPhGVFzZsUyGzG+AEzYWguMGxUbjsgsV4whRHCCiYxIrGyKivBBDDSg==
   dependencies:
     app-module-path "^2.2.0"
     commander "^2.20.3"
@@ -5801,6 +5789,11 @@ is-unicode-supported@^0.1.0:
   resolved "https://registry.npmjs.org/is-unicode-supported/-/is-unicode-supported-0.1.0.tgz"
   integrity sha512-knxG2q4UC3u8stRGyAVJCOdxFmv5DZiRcdlIaAQXAbSfJya+OhopNotLQrstBhququ4ZpuKbDc/8S6mgXgPFPw==
 
+is-url-superb@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/is-url-superb/-/is-url-superb-4.0.0.tgz#b54d1d2499bb16792748ac967aa3ecb41a33a8c2"
+  integrity sha512-GI+WjezhPPcbM+tqE9LnmsY5qqjwHzTvjJ36wxYX5ujNXefSUJ/T17r5bqDV8yLhcgB59KTPNOc9O9cmHTPWsA==
+
 is-url@^1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/is-url/-/is-url-1.2.4.tgz"
@@ -6898,30 +6891,30 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-madge@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/madge/-/madge-4.0.2.tgz"
-  integrity sha512-l5bnA2dvyk0azLKDbOTCI+wDZ6nB007PhvPdmiYlPmqwVi49JPbhQrH/t4u8E6Akp3gwji1GZuA+v/F5q6yoWQ==
+madge@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/madge/-/madge-5.0.1.tgz#2096d9006558ea0669b3ade89c2cda708a24e22b"
+  integrity sha512-krmSWL9Hkgub74bOjnjWRoFPAJvPwSG6Dbta06qhWOq6X/n/FPzO3ESZvbFYVIvG2g4UHXvCJN1b+RZLaSs9nA==
   dependencies:
-    chalk "^4.1.0"
-    commander "^6.2.1"
+    chalk "^4.1.1"
+    commander "^7.2.0"
     commondir "^1.0.1"
-    debug "^4.0.1"
-    dependency-tree "^8.0.0"
-    detective-amd "^3.0.1"
+    debug "^4.3.1"
+    dependency-tree "^8.1.1"
+    detective-amd "^3.1.0"
     detective-cjs "^3.1.1"
-    detective-es6 "^2.1.0"
+    detective-es6 "^2.2.0"
     detective-less "^1.0.2"
-    detective-postcss "^4.0.0"
+    detective-postcss "^5.0.0"
     detective-sass "^3.0.1"
     detective-scss "^2.0.1"
     detective-stylus "^1.0.0"
     detective-typescript "^7.0.0"
     graphviz "0.0.9"
-    ora "^5.1.0"
+    ora "^5.4.1"
     pluralize "^8.0.0"
-    precinct "^7.0.0"
-    pretty-ms "^7.0.0"
+    precinct "^8.1.0"
+    pretty-ms "^7.0.1"
     rc "^1.2.7"
     typescript "^3.9.5"
     walkdir "^0.4.1"
@@ -7555,6 +7548,11 @@ nanoid@^3.1.15, nanoid@^3.1.22:
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.22.tgz"
   integrity sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==
 
+nanoid@^3.1.30:
+  version "3.1.30"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
+  integrity sha512-zJpuPDwOv8D2zq2WRoMe1HsfZthVewpel9CAvTfc/2mBD1uUT/agc5f7GHGWXlYkFvi1mVxe4IjvP2HNrop7nQ==
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz"
@@ -7955,10 +7953,10 @@ ora@^3.4.0:
     strip-ansi "^5.2.0"
     wcwidth "^1.0.1"
 
-ora@^5.1.0:
-  version "5.4.0"
-  resolved "https://registry.npmjs.org/ora/-/ora-5.4.0.tgz"
-  integrity sha512-1StwyXQGoU6gdjYkyVcqOLnVlbKj+6yPNNOxJVgpt9t4eksKjiriiHuxktLYkgllwk+D6MbC4ihH84L1udRXPg==
+ora@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/ora/-/ora-5.4.1.tgz#1b2678426af4ac4a509008e5e4ac9e9959db9e18"
+  integrity sha512-5b6Y85tPxZZ7QytO+BQzysW31HJku27cRIlkbAXaNx+BdcVi+LlRFmVXzeF6a7JCwJpyw5c4b+YSVImQIrBpuQ==
   dependencies:
     bl "^4.1.0"
     chalk "^4.1.0"
@@ -8172,6 +8170,11 @@ performance-now@^2.1.0:
   resolved "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.2.3"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.3.tgz"
@@ -8274,6 +8277,15 @@ postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
+postcss-values-parser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-values-parser/-/postcss-values-parser-5.0.0.tgz#10c61ac3f488e4de25746b829ea8d8894e9ac3d2"
+  integrity sha512-2viDDjMMrt21W2izbeiJxl3kFuD/+asgB0CBwPEgSyhCmBnDIa/y+pLaoyX+q3I3DHH0oPPL3cgjVTQvlS1Maw==
+  dependencies:
+    color-name "^1.1.4"
+    is-url-superb "^4.0.0"
+    quote-unquote "^1.0.0"
+
 postcss@^8.1.7:
   version "8.2.13"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.2.13.tgz"
@@ -8282,6 +8294,15 @@ postcss@^8.1.7:
     colorette "^1.2.2"
     nanoid "^3.1.22"
     source-map "^0.6.1"
+
+postcss@^8.2.13:
+  version "8.4.5"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
+  integrity sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==
+  dependencies:
+    nanoid "^3.1.30"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.1"
 
 prebuild-install@^5.3.4:
   version "5.3.6"
@@ -8304,10 +8325,10 @@ prebuild-install@^5.3.4:
     tunnel-agent "^0.6.0"
     which-pm-runs "^1.0.0"
 
-precinct@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/precinct/-/precinct-7.1.0.tgz"
-  integrity sha512-I1RkW5PX51/q6Xl39//D7x9NgaKNGHpR5DCNaoxP/b2+KbzzXDNhauJUMV17KSYkJA41CSpwYUPRtRoNxbshWA==
+precinct@^8.0.0, precinct@^8.1.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/precinct/-/precinct-8.3.0.tgz#7b1a4c90d8e6fb202f56dc60225dd4d40ad94333"
+  integrity sha512-+NPlVGgm+SVfQeClQQt9q4L7Aq7Lym2EhoLU8Ocs1T131hLJ0LAOMigHILSf5kVH2/rym5c80bUdBPkZ1HPKFA==
   dependencies:
     commander "^2.20.3"
     debug "^4.3.1"
@@ -8319,7 +8340,7 @@ precinct@^7.0.0:
     detective-sass "^3.0.1"
     detective-scss "^2.0.1"
     detective-stylus "^1.0.0"
-    detective-typescript "^6.0.0"
+    detective-typescript "^7.0.0"
     module-definition "^3.3.1"
     node-source-walk "^4.2.0"
 
@@ -8355,9 +8376,9 @@ pretty-format@^26.0.0, pretty-format@^26.5.2, pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-pretty-ms@^7.0.0:
+pretty-ms@^7.0.1:
   version "7.0.1"
-  resolved "https://registry.npmjs.org/pretty-ms/-/pretty-ms-7.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-7.0.1.tgz#7d903eaab281f7d8e03c66f867e239dc32fb73e8"
   integrity sha512-973driJZvxiGOQ5ONsFhOF/DtzPMOMtgC11kCpUrPGMTgqp2q/1gwzCquocrN33is0VZ5GFHXZYMM9l6h67v2Q==
   dependencies:
     parse-ms "^2.1.0"
@@ -8525,6 +8546,11 @@ quick-lru@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-4.0.1.tgz"
   integrity sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==
+
+quote-unquote@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/quote-unquote/-/quote-unquote-1.0.0.tgz#67a9a77148effeaf81a4d428404a710baaac8a0b"
+  integrity sha1-Z6mncUjv/q+BpNQoQEpxC6qsigs=
 
 range-parser@~1.2.1:
   version "1.2.1"
@@ -9780,6 +9806,11 @@ socks@^2.3.3:
   dependencies:
     ip "^1.1.5"
     smart-buffer "^4.1.0"
+
+source-map-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.1.tgz#a1741c131e3c77d048252adfa24e23b908670caf"
+  integrity sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==
 
 source-map-resolve@^0.5.0:
   version "0.5.3"
